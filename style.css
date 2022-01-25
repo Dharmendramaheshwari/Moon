@@ -1,0 +1,616 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+nav .logo {
+  width: 100%;
+  height: 100px;
+  background-color: #052501;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  padding-bottom: 11rem;
+  background-image: url("pics/banner.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.logo a img {
+  margin: 1.2rem 0 0 5rem;
+}
+
+.logo ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+ul {
+  margin-left: 11rem;
+}
+
+ul li a:hover {
+  color: greenyellow;
+}
+
+ul span {
+  color: greenyellow;
+}
+
+ul span a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  display: inline-block;
+  padding: 3rem 2rem;
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.bar {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 3px;
+}
+
+
+.banner .banner-d{
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.banner .banner-d h1 {
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
+.banner .banner-d h1 b {
+  color: greenyellow;
+  font-size: 3.4rem;
+}
+
+.banner .banner-d p {
+  color: white;
+  line-height: 27px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.btn {
+  color: black;
+  width: 190px;
+  height: 46px;
+  background-color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 2% 2% 0 0;
+}
+
+
+.btn1:hover {
+  background-color: green;
+  color: white;
+}
+
+.banner .banner-d .btn2 {
+  color: black;
+  background-color: #fff;
+}
+
+.btn2:hover {
+  background-color: green;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about .wheat img {
+  width: 100%;
+}
+
+.speech {
+  width: 40%;
+  padding: 3% 0 0 5%;
+}
+
+.about .speech h1 {
+  color: #163f03;
+  padding: 6% 0 0 5%;
+  font-size: 3rem;
+  font-weight: 400;
+  border-bottom: 1px solid #052501;
+}
+
+.speech .green-h1 {
+  color: #4bc714;
+  font-weight: 200;
+}
+
+.speech-btn {
+  color: white;
+  width: 225px;
+  height: 54px;
+  background-color: #052501;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 18px;
+  cursor: pointer;
+  margin: 2% 0 0 4%;
+}
+
+.speech-btn:hover {
+  background-color: #4bc714;
+}
+
+.speech p {
+  padding: 10% 0 8% 4%;
+  font-size: 17px;
+  line-height: 35px;
+  color: #4c4a49;
+  font-weight: 500;
+}
+
+.wheat {
+  width: 55%;
+  padding-top: 7%;
+}
+
+.products {
+  width: 100%;
+  padding-bottom: 7%;
+  background-color: #052501;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  width: 24%;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.first h1,
+.second h1,
+.third h1,
+.fourth h1 {
+  color: #4bc714;
+  font-size: 2.8rem;
+  padding: 2% 0;
+}
+
+.first h2,
+.second h2,
+.third h2,
+.fourth h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.offer .special {
+  width: 380px;
+  height: 130px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7%;
+  font-size: 2rem;
+  border-bottom: 1px solid #052501;
+}
+
+.offer .special h1 {
+  font-weight: 500;
+}
+
+.offer .special .green-h1 {
+  font-weight: 200;
+  color: #4bc714;
+}
+
+.three-offer {
+  width: 100%;
+  padding-bottom: 5%;
+  background-color: #052501;
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  text-align: center;
+}
+
+.first-offer,
+.second-offer,
+.third-offer {
+  width: 33%;
+}
+
+.first-offer img,
+.second-offer img,
+.third-offer img {
+  width: 85%;
+}
+
+.first-offer {
+  padding-top: 4%;
+}
+
+.first-offer .btn3 {
+  margin: 34% 18% 0 0;
+}
+
+.btn3:hover {
+  background-color: green;
+  color: white;
+}
+
+.second-offer {
+  padding-top: 12%;
+}
+
+.third-offer {
+  padding-top: 20%;
+}
+
+.first-offer h1,
+.second-offer h1,
+.third-offer h1 {
+  padding-bottom: 6%;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.get .touch {
+  width: 380px;
+  height: 130px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7%;
+  font-size: 2rem;
+  border-bottom: 1px solid #052501;
+}
+
+.touch h1 {
+  color: #052501;
+}
+
+.touch .green-h1 {
+  font-weight: 200;
+  color: #4bc714;
+}
+
+.footer-material {
+  width: 100%;
+  padding-bottom: 5%;
+  background-color: #052501;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thing1,
+.thing2,
+.thing3,
+.thing4 {
+  width: 18%;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 4%;
+}
+
+.thing3 .email {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 8% 0 8% 0;
+  font-size: 1.1rem;
+  padding-left: 5%;
+}
+
+.thing3 .footer-btn {
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-color: #30880d;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.footer-btn:hover {
+  background-color: #fff;
+  color: #4bc714;
+}
+
+.thing1 h1,
+.thing2 h1,
+.thing3 h1,
+.thing4 h1 {
+  border-bottom: 1px solid #4bc714;
+  font-weight: 500;
+}
+
+.thing1 p,
+.thing2 p,
+.thing3 p,
+.thing4 p {
+  line-height: 28px;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.thing4 .sp {
+  font-size: 1.2rem;
+  line-height: 53px;
+}
+
+.copyright .rights {
+  width: 100%;
+  height: 60px;
+  background-color: #30880d;
+}
+
+.rights p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+@media only screen and (max-width: 991px) {
+  .toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #163f03;
+    z-index: 55;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    left: 0px;
+    margin-left: 0px;
+  }
+
+  ul li {
+    padding: 10px 20px;
+  }
+
+  .nav {
+    padding: 10px;
+  }
+
+  .banner .banner-d h1,
+  .banner .banner-d h1 b {
+    font-size: 2.4rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 140px;
+  }
+
+  .about .speech h1 {
+    font-size: 1.8rem;
+  }
+
+  .wheat {
+    width: 48%;
+  }
+
+  .first h1,
+  .second h1,
+  .third h1,
+  .fourth h1 {
+    font-size: 1.8rem;
+  }
+
+  .first h2,
+  .second h2,
+  .third h2,
+  .fourth h2 {
+    font-size: 1.5rem;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 9%;
+  }
+
+  .first-offer h1,
+  .second-offer h1,
+  .third-offer h1 {
+    font-size: 1.3rem;
+  }
+
+  .thing1,
+  .thing2,
+  .thing3,
+  .thing4 {
+    width: 34%;
+  }
+
+  .thing1 h1,
+  .thing2 h1,
+  .thing3 h1,
+  .thing4 h1 {
+    border: 0;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  ul {
+    /* padding-left: 122px; */
+  }
+
+  ul li {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  ul li {
+    padding: 10px 20px;
+  }
+
+  .speech {
+    width: 100%;
+  }
+
+  .wheat {
+    width: 100%;
+  }
+
+  .about .wheat img {
+    width: 80%;
+    padding-left: 12%;
+  }
+
+  .about .speech h1 {
+    font-size: 2.2rem;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    width: 100%;
+  }
+
+  .first h1,
+  .second h1,
+  .third h1,
+  .fourth h1 {
+    font-size: 2.8rem;
+  }
+
+  .first h2,
+  .second h2,
+  .third h2,
+  .fourth h2 {
+    font-size: 1.8rem;
+  }
+
+  .first-offer,
+  .second-offer,
+  .third-offer {
+    width: 100%;
+  }
+
+  .first-offer h1,
+  .second-offer h1,
+  .third-offer h1 {
+    font-size: 1.9rem;
+  }
+
+  .first-offer img,
+  .second-offer img,
+  .third-offer img {
+    width: 75%;
+  }
+
+  .first-offer .btn3 {
+    display: none;
+  }
+
+  .thing1,
+  .thing2,
+  .thing3,
+  .thing4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .banner .banner-d p{
+    display: none;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 530px) {
+
+  .offer .special{
+    width: auto;
+  }
+
+  .get .touch{
+    width: auto;
+  }
+
+  .btn{
+    width: 100px;
+    font-size: 0.9rem;
+  }
+}
+
